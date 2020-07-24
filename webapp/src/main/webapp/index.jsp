@@ -8,4 +8,21 @@
 
 https://github.com/ValaxyTech/DevOpsDemos/blob/master/SimpeDevOpsProjects/Project-02.MD
 
+Build:
+
+Root POM:pom.xml
+Goals and options : clean install package
+Add post-build steps
+
+Send files or execute commands over SSH
+SSH Server : ansible_server
+Source fiels: webapp/target/*.war
+Remote directory: //opt//playbooks
+Add post-build steps
+
+Send files or execute commands over ssH
+SSH Server : ansible_server
+Exec command ansible-playbook /opt/playbooks/copywarfile.yml
+Execute job and you should be able to seen build has been deployed on Tomcat server.
+
 
