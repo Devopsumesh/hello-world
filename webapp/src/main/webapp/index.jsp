@@ -26,3 +26,6 @@ Exec command ansible-playbook /opt/playbooks/copywarfile.yml
 Execute job and you should be able to seen build has been deployed on Tomcat server.
 
 
+<h1>Docker is used for setting up, deploying, and running applications, at scale, by containerizing them. More on that later. Docker also provides developers with a consistent environment for product development, and along with Kubernetes, makes managing the development lifecycle a breeze.</h1>
+
+
