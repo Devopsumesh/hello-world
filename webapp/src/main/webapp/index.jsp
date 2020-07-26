@@ -20,12 +20,10 @@ Source fiels: webapp/target/*.war
 Remote directory: //opt//playbooks
 Add post-build steps
 
-Send files or execute commands over ssH
-SSH Server : ansible_server
-Exec command ansible-playbook /opt/playbooks/copywarfile.yml
-Execute job and you should be able to seen build has been deployed on Tomcat server.
 
 
 <h1>Mangal Bhavan Aa mangal hari ....Jai Sri Ram </h1>
+
+<h1> Jai kaal bharav baba </h1>
 
 
